@@ -1,0 +1,60 @@
+.close {
+    position: absolute;
+    top: 68px;
+    right: 30px;
+    @media (min-width: 376px) {
+        display: none;
+    }
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    .overlay-content {
+        position: relative;
+        top: 68px;
+        width: 100%;
+        .menu-list {
+            padding-left: 26px;
+        }
+        .menu-list:not(:last-child) {
+            margin-bottom: 68px;
+        }
+    }
+    .closebtn {
+        position: absolute;
+        top: 35px;
+        right: 30px;
+        font-size: 50px;
+    }
+    .menu-list_link {
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #828282;
+    }
+    .current {
+        color: black;
+    }
+    .overlay-title_lng {
+        font-family: Gilroy-Bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #828282;
+        transform: rotate(90deg);
+        position: absolute;
+        right: 28px;
+        bottom: 57px;
+    }
+} 
+
+
+
+

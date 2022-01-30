@@ -1,0 +1,79 @@
+.home {
+    margin-bottom: 104px;
+    @media (min-width:376px) and (max-width: 1444px) {
+        margin-bottom: 55px;
+    }
+    .home-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        @media (max-width: 375px) {
+            flex-direction: column;
+            margin-bottom: 36px;
+        }
+        .home-title_name {
+            font-family: Gilroy-Bold;
+            font-size: 47px;
+            line-height: 59px;
+            color: #070707;
+            @media (min-width:376px) and (max-width: 1444px) {
+                font-size: 25px;
+                line-height: 30px;
+            }
+            @media (max-width: 375px) {
+                font-size: 47px;
+                line-height: 58px;
+                margin-bottom: 23px;
+                margin-top: 65px;
+            }
+        }
+        .home-title_info {
+            font-family: Gilroy-Medium;
+            font-size: 18px;
+            line-height: 22px;
+            display: flex;
+            align-items: flex-end;
+            color: #070707;
+            @media (min-width:376px) and (max-width: 1444px) {
+                font-size: 14px;
+                line-height: 18px;
+            }
+            @media (max-width: 375px) {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+        .home-title_lng {
+            font-family: Gilroy-Bold;
+            font-size: 16px;
+            line-height: 20px;
+            color: #828282;
+            transform: rotate(-90deg);
+            transform-origin: 100% 20% 0;
+            @media (min-width:376px) and (max-width: 1444px) {
+                font-size: 8px;
+                line-height: 15px;
+            }
+            @media (max-width: 375px) {
+                display: none;
+            }
+            .title_lng {
+                color: #070707;
+            }
+        }
+    }
+    .home-img {
+        width: 100%;
+        @media (max-width: 375px) {
+            display: none;
+        }
+    }
+    .home-img_mob {
+        @media (min-width: 376px) {
+            width: 100%;
+            display: none;
+        }
+    }
+}
+
+
